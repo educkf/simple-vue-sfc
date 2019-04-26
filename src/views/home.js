@@ -42,8 +42,9 @@ const componentStyle = \`
 
             <h3 class="title">Add CSS variables on helpers.js and use on SFC</h3>
             <appcode :pre="true" filename="helpers.js">
-    const maincolor = '#151515';
-    const subcolor = '#42b983';</appcode>
+const maincolor = '#151515';
+const subcolor = '#42b983';</appcode>
+
             <appcode :pre="true" filename="component.js">
 const componentStyle = \`
     .classname {

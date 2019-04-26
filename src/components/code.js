@@ -31,11 +31,21 @@ const appcode = {
 const codeStyles = `
     .code {
         background: #333;
-        padding: 7px 14px;
+        padding: 0;
         border-radius: 3px;
         color: ${subcolor};
         position: relative;
         margin-bottom: 14px;
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    div.code div {
+        padding: 14px 28px;
+    }
+
+    div.code pre {
+        padding: 0 28px;
     }
 
     .filename {
