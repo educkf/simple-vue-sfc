@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Teste simple SFC</title>
+
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+
+<div id="app">
+    <app-header :propmessage="message"></app-header>
+    <app-menu :menu="menu"></app-menu>
+    
+    <router-view></router-view>
+
+    <app-footer></app-footer>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://unpkg.com/vue-router@3.0.6/dist/vue-router.js"></script>
+
+<script src="components/header.js"></script>
+<script src="components/menu.js"></script>
+<script src="components/footer.js"></script>
+
+<script src="views/home.js"></script>
+<script src="views/about.js"></script>
+<script src="views/contact.js"></script>
+
+<script src="routes.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
