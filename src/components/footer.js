@@ -1,4 +1,4 @@
-Vue.component('app-footer', {
+const appfooter = {
     name: 'AppFooter',
     template: `
         <footer class="footer">eduardocamillo.com.br | 2019</footer>
@@ -10,7 +10,7 @@ Vue.component('app-footer', {
     created() {
         addStyle(footer_styles)
     }
-});
+};
 
 const footer_styles = `
     footer.footer {

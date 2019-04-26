@@ -60,6 +60,9 @@ const componentStyle = \`
             <p>Just a <a class="link" href="https://reactpodcast.com/42">Dumb sh*t</a> project by @educkf</p>
         </main>
     `,
+    components: {
+        appcode
+    },
     created() {
         addStyle(home_styles)
     }

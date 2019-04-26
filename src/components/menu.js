@@ -1,4 +1,4 @@
-Vue.component('app-menu', {
+const appmenu = {
     name: 'AppMenu',
     template: `
         <nav class="menu">
@@ -14,7 +14,7 @@ Vue.component('app-menu', {
     created() {
         addStyle(menu_styles)
     }
-});
+};
 
 const menu_styles = `
     nav.menu {

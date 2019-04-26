@@ -13,12 +13,12 @@
 
 
 <div id="app">
-    <app-header></app-header>
-    <app-menu></app-menu>
+    <appheader></appheader>
+    <appmenu></appmenu>
     
     <router-view></router-view>
 
-    <app-footer></app-footer>
+    <appfooter></appfooter>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
@@ -39,6 +39,11 @@
 <script>
 var app = new Vue({
     el: '#app',
+    components: {
+        appfooter,
+        appmenu,
+        appheader,
+    },
     router: router
 })
 </script>

@@ -1,4 +1,4 @@
-Vue.component('component-name', {
+const componentname = {
     name: 'component-name',
     template: `
         <div></div>
@@ -15,6 +15,6 @@ Vue.component('component-name', {
     },
     mounted() {},
     methods: {}
-});
+};
 
 const componentStyle = ``

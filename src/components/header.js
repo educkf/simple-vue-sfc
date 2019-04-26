@@ -1,4 +1,4 @@
-Vue.component('app-header', {
+const appheader = {
     name: 'AppHeader',
     template: `
         <header class="header">
@@ -17,7 +17,7 @@ Vue.component('app-header', {
     },
     mounted() {},
     methods: {}
-});
+};
 
 const header_styles = `
     header.header {

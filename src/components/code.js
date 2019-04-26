@@ -1,4 +1,4 @@
-Vue.component('appcode', {
+const appcode = {
     name: 'appcode',
     template: `
         <div class="code">
@@ -26,7 +26,7 @@ Vue.component('appcode', {
     },
     mounted() {},
     methods: {}
-});
+};
 
 const codeStyles = `
     .code {
