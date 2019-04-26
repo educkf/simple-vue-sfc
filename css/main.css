@@ -1,11 +1,46 @@
-@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+@import url('https://fonts.googleapis.com/css?family=Poppins:800');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Fira+Mono:500');
 
 * {
-    font-family: 'Slabo 27px', serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.code {
+    font-family: 'Fira Mono', monospace;
 }
 
 .container {
     width: 800px;
     margin: 28px auto;
     min-height: 280px;
+}
+
+a.link {
+    color: #42b983;
+    display: inline-block;
+    position: relative;
+    top: 0px;
+    text-decoration: none;
+    padding: 5px 0;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.link::after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    content: "";
+    transition: width 0.2s;
+    width: 0;
+    border-bottom: 1px solid #42b983;
+}
+
+a.link:hover::after {
+    width: 100%;
 }

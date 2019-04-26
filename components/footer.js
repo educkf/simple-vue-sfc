@@ -3,13 +3,9 @@ Vue.component('app-footer', {
     template: `
         <footer class="footer">eduardocamillo.com.br | 2019</footer>
     `,
-    props: [
-        'propmessage'
-    ],
+    props: [],
 	data() {
-		return { 
-            datamessage: 'world' 
-        }
+		return {}
 	},
     created() {
         addStyle(footer_styles)

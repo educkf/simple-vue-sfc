@@ -2,27 +2,33 @@ Vue.component('app-header', {
     name: 'AppHeader',
     template: `
         <header class="header">
-            <p>{{ propmessage }} {{ datamessage }}</p>
+            <h1 class="header-title">Plain-simple SFC for Vue.js</h1>
         </header>
     `,
-    props: [
-        'propmessage'
-    ],
-	data() {
-		return { 
-            datamessage: 'header!' 
-        }
-	},
+    filters: {},
+    props: {},
+    data: function() {
+        return {};
+    },
+    computed: {},
+    watch: {},
     created() {
         addStyle(header_styles)
-    }
+    },
+    mounted() {},
+    methods: {}
 });
 
 const header_styles = `
     header.header {
         width: 800px;
-        margin: 14px auto;
-        font-size: 18px;
+        margin: 35px auto 28px;
+        font-size: 14px;
         font-weight: bold;
+        color: ${subcolor};
+    }
+
+    h1.header-title {
+        font-size: 28px;
     }
 `
