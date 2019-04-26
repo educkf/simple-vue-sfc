@@ -12,7 +12,7 @@ function addStyle(styles) {
 
 var app = new Vue({
     el: '#app',
-    router,
+    router: router,
     data: {
         message: 'Hello ',
         menu: [
