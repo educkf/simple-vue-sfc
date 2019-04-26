@@ -14,7 +14,7 @@ Vue.component('app-footer', {
 
 const footer_styles = `
     footer.footer {
-        width: 800px;
+        max-width: 800px;
         margin: 14px auto;
         color: #999;
     }

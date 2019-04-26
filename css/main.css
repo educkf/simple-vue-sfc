@@ -15,7 +15,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .container {
-    width: 800px;
+    max-width: 800px;
     margin: 28px auto;
     min-height: 280px;
 }

@@ -18,7 +18,7 @@ Vue.component('app-menu', {
 
 const menu_styles = `
     nav.menu {
-        width: 800px;
+        max-width: 800px;
         margin: 14px auto;
         padding: 14px;
         border: 1px solid #eee;

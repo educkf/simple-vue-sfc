@@ -21,7 +21,7 @@ Vue.component('app-header', {
 
 const header_styles = `
     header.header {
-        width: 800px;
+        max-width: 800px;
         margin: 35px auto 28px;
         font-size: 14px;
         font-weight: bold;
