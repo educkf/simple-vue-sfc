@@ -53,6 +53,12 @@ const componentStyle = \`
     }
 \`</appcode>
 
+            <h3 class="title">To use .less syntax, add 'true' param to the addStyle function</h3>
+            <appcode :pre="true">
+created() {
+    addStyle('componentStyle', componentStyle, true)
+}</appcode>
+
             <h3 class="title">Create routes, more components, more stuff</h3>
             <p>Go check the <a href="https://github.com/educkf/simple-vue-sfc" class="link" target="_blank">Github repo</a>, it is easier to understand there.</p>
 
@@ -65,7 +71,7 @@ const componentStyle = \`
         appcode
     },
     created() {
-        addStyle(home_styles)
+        addStyle('home_styles', home_styles)
     }
 }
 

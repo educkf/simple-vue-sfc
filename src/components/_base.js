@@ -11,7 +11,7 @@ const componentname = {
     computed: {},
     watch: {},
     created() {
-        addStyle(componentStyle)
+        addStyle('componentStyle', componentStyle)
     },
     mounted() {},
     methods: {}

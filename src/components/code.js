@@ -22,7 +22,7 @@ const appcode = {
     computed: {},
     watch: {},
     created() {
-        addStyle(codeStyles)
+        addStyle('codeStyles', codeStyles)
     },
     mounted() {},
     methods: {}

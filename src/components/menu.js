@@ -12,7 +12,7 @@ const appmenu = {
         return {}
     },
     created() {
-        addStyle(menu_styles)
+        addStyle('menu_styles', menu_styles)
     }
 };
 

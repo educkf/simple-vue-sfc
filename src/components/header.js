@@ -13,7 +13,7 @@ const appheader = {
     computed: {},
     watch: {},
     created() {
-        addStyle(header_styles)
+        addStyle('header_styles', header_styles)
     },
     mounted() {},
     methods: {}

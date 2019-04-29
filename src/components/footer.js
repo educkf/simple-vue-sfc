@@ -8,7 +8,7 @@ const appfooter = {
 		return {}
 	},
     created() {
-        addStyle(footer_styles)
+        addStyle('footer_styles', footer_styles)
     }
 };
 
