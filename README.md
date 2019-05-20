@@ -6,6 +6,8 @@ Still figuring things out here, WIP.
 
 Test URL: [https://simple-vue-sfc.surge.sh](https://simple-vue-sfc.surge.sh)
 
+Codesandbox: [https://codesandbox.io/s/53gcg](https://codesandbox.io/s/53gcg)
+
 Todo:
 - learn and implement prefetch stuff - [https://medium.com/reloading/preload-prefetch-and-priorities-in-chrome-776165961bbf](https://medium.com/reloading/preload-prefetch-and-priorities-in-chrome-776165961bbf)
 - improve the CSS in SFC way, it is kinda ugly (at least it accepts js variables)
